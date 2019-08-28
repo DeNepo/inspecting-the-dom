@@ -1,13 +1,13 @@
 # Inspecting The DOM
 
-"_Inspecting the DOM with your browser's Developer Tools_" is a sentence quite a few new concepts.  But have no fear, this repo will make it clear!
+"_Inspecting the DOM with your browser's Developer Tools_" is a sentence quite a few new concepts.  But have no fear, this repo makes it clear!
 
-This repository containes a collection of live web pages designed  to help you understand the lifecycle of an HTML web page (__HTML source code -> the DOM -> rendered content__) and how you can use oyur browser's Developer Tools to inspect and modify the __live DOM__.
+This repository containes a collection of live web pages designed to help you understand the lifecycle of an HTML web page (__HTML source code -> the DOM -> rendered content__) and how you can use your browser's Developer Tools to inspect and modify the __live DOM__.
 
-You'll know you have mastered this material when you understand (and can explain to someone else!) the 3 stages in an HTML page's life-cycle:
+You'll know you have mastered this repo when you understand (and can explain to someone else!) the 3 stages in an HTML page's life-cycle using your DevTools and any simple website:
 1. __HTML Source Code__: This is the text that you write in a .html file and open with your browser.  HTML is a _mark up language_, meaning it describes to a computer how you want the content on your web page to be organized behind the scenes.
 2. __The DOM Tree__: When you open an HTML file in your browser, it _parses_ the code you wrote and builds the __DOM Tree__.  The DOM Tree is very similar to your HTML but will not be exactly the same, \<table> tags are helpful for understanding this. 
-3. __Rendered Content__: The DOM is an _abstract representation_ of the content in your website, it is NOT exactly what you see on the screen. This is easiest to understand when you think of CSS: it is possible to write one div below anther in your .html file, have them appear like that order in the DOM Tree, then switch them in the final rendering using CSS.
+3. __Rendered Content__: The DOM is an _abstract representation_ of the content in your website, it is NOT exactly what you see on the screen. This is easiest to understand when you think of CSS: it is possible to write one div below anther in your .html file, have them in that order in the DOM (dev tools), then switch them on screen in the final rendering using CSS. (don't worry if that doesn't make sense yet, there is an exercise about this)
 
 
 ### index
