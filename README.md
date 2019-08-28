@@ -35,7 +35,7 @@ All exercises in this repository consist of an example meant to be studied as in
 Here they are:
 1. [basic example without CSS](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/without-css.html)
 1. [basic example with CSS](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/with-css.html)
-1. [rearranging with CSS](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/rearrange-with-css.html)
+1. [rearrange with CSS](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/rearrange-with-css.html)
 1. [tables are not as they appear!](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/tables.html)
 1. [inline style vs. separate CSS]()
 1. [HTMl bugs 1]()

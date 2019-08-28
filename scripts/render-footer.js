@@ -1,7 +1,7 @@
 function renderFooter() {
 
   const img = document.createElement("img");
-  img.setAttribute("src", "https://pbs.twimg.com/profile_images/984474625009741824/Bs_qKx6-_400x400.jpg");
+  img.setAttribute("src", "https://user-images.githubusercontent.com/18554853/63869485-7ffd8f80-c9b8-11e9-8c29-0fd1bdb75d4f.jpg");
   img.setAttribute("alt", "Hack Your Future, Belgium")
   img.width = 100;
   img.height = 100;
