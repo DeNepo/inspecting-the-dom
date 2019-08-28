@@ -1,7 +1,18 @@
-.content {
-  border-style: solid none none none;
+header {
+  border-style: none none solid none;
+  text-align: center;
 }
 
-.instructions {
-  background-color: orange;
+.meta {
+  background-color: gainsboro;
+  border-style: solid none solid none;
+}
+
+.demo-box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.top-line {
+  border-style: solid none none none;
 }

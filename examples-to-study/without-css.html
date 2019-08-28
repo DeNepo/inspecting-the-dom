@@ -1,0 +1,94 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title id="example-name">Without CSS</title>
+  <script>
+    const example = `
+<h1 class="heading">This is a Heading</h1>
+<h1>This is another Heading</h1>
+</p id="p-tag">
+  This is a p tag
+</p>
+<p>
+  This is another p tag
+</p>
+<div class="a-div">
+  And a div
+</div>
+<div>
+  And another div
+</div>
+`
+  </script>
+
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <script src="./scripts/view-source.js"></script>
+  <script src="./scripts/open-in-hixie.js"></script>
+  <script src="./scripts/render-footer.js"></script>
+
+</head>
+
+<body>
+
+  <header class="meta">
+    <h2 id="headline"></h2>
+  </header>
+
+  <section id="example-to-study" class="demo-box"></section>
+
+  <section class="meta">
+    <dl>
+      <dt>To get the most out of studying this example, study it as many ways as possible!</dt>
+      <dd>
+        <p>
+          view the source code <a href="https://support.mozilla.org/en-US/questions/873324" target="_blank">directly
+            from the browser
+            (ctr-u)</a>
+          or <button onclick="viewSource()">on <strong>GitHub</strong></button>
+        </p>
+      </dd>
+      <dd>
+        <p>
+          see it all side-by-side: <button onclick="openInHixie(example)">source code -> DOM tree ->
+            rendering</button>
+        </p>
+      </dd>
+      <dd>
+        <p>
+          inspect the DOM with <a
+            href="https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Open_the_Inspector"
+            target="_blank">your browser's <strong>Developer Tools</strong></a>
+        </p>
+      </dd>
+      <dd>
+        <p>
+          edit the DOM <a
+            href="https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_and_edit_HTML"
+            target="_blank">directly from <strong>Developer Tools</strong></a>
+        </p>
+      </dd>
+    </dl>
+  </section>
+
+  <footer id="hyf-footer" class="top-line"></footer>
+
+  <script>
+    const title = document.getElementById("example-name").innerHTML;
+    const header = document.getElementById("headline");
+    header.innerHTML = title;
+
+    const exampleToStudy = document.getElementById("example-to-study");
+    exampleToStudy.innerHTML = example;
+
+    document.getElementById("hyf-footer").appendChild(renderFooter());
+  </script>
+
+</body>
+
+</html>
