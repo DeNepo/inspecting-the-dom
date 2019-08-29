@@ -10,6 +10,7 @@ You'll know you have mastered this repo when you understand (and can explain to 
 3. __Rendered Content__: The DOM is an _abstract representation_ of the content in your website, it is NOT exactly what you see on the screen. This is easiest to understand when you think of CSS: it is possible to write one div below anther in your .html file, have them in that order in the DOM (dev tools), then switch them on screen in the final rendering using CSS. (don't worry if that doesn't make sense yet, there is an exercise about this)
  
 "Great!" you say  "This is a very well written explanation. But why does this matter, can't I just make pretty things?".  Yes, you could just hack together some HTML & CSS to make pretty pages, but without learning to use the Developer Tools and without understanding the HTML lifecycle (_HTML source code -> the DOM -> rendered content_), you'll never leave the minor leagues.   
+
 Not only is it very difficult to catch your mistakes in HTML & CSS without mastering the DevTools, but mastering the DevTools _before_ moving on to JavaScript is one of the single most helpful things you can do to prepare.
 
 > We recommend you [download Firefox](https://www.mozilla.org/en-US/firefox/new/) if you don't have it already. These exercises will be much more helpful with a good developer-focused browser
