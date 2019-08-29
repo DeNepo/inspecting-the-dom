@@ -7,40 +7,6 @@
 
   <title id="example-name">Tables</title>
 
-  <script>
-    const example = `
-  <style>
-    table,
-    th,
-    td {
-      border: 1px solid black;
-    }
-  </style>
-
-  <p>
-    tables help to see that HTML is not the DOM
-  </p>
-
-  <table>
-    <tr>
-      <td>
-        0, 0
-      </td>
-      <td>
-        1, 0
-      </td>
-    </tr>
-    <tr>
-      <td>
-        0, 1
-      </td>
-      <td>
-        1, 1
-      </td>
-    </tr>
-  </table>
-  `
-  </script>
 
   <link rel="stylesheet" type="text/css" href="../style.css" />
 
@@ -56,7 +22,38 @@
     <h2 id="headline"></h2>
   </header>
 
-  <section id="example-to-study" class="demo-box"></section>
+  <section id="example-to-study" class="demo-box">
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+
+    <p>
+      tables help to see that HTML is not the DOM
+    </p>
+
+    <table>
+      <tr>
+        <td>
+          0, 0
+        </td>
+        <td>
+          1, 0
+        </td>
+      </tr>
+      <tr>
+        <td>
+          0, 1
+        </td>
+        <td>
+          1, 1
+        </td>
+      </tr>
+    </table>
+  </section>
 
   <section class="meta">
     <dl>
@@ -71,7 +68,7 @@
       </dd>
       <dd>
         <p>
-          see it all side-by-side: <button onclick="openInHixie(example)">source code -> DOM tree ->
+          see it all side-by-side: <button onclick="openInHixie('example-to-study')">source code -> DOM tree ->
             rendered</button>
         </p>
       </dd>
@@ -79,7 +76,8 @@
         <p>
           inspect the DOM with <a
             href="https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Open_the_Inspector"
-            target="_blank">your browser's <strong>Developer Tools</strong></a>
+            target="_blank">your browser's <strong>Developer Tools</strong></a> (docking them on the right side of the
+          screen is best)
         </p>
       </dd>
       <dd>
@@ -98,9 +96,6 @@
     const title = document.getElementById("example-name").innerHTML;
     const header = document.getElementById("headline");
     header.innerHTML = title;
-
-    const exampleToStudy = document.getElementById("example-to-study");
-    exampleToStudy.innerHTML = example;
 
     document.getElementById("hyf-footer").appendChild(renderFooter());
   </script>

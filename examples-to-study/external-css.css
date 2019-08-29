@@ -1,0 +1,21 @@
+/* see the risk of using CSS tags instead of id's*/
+p {
+  color: blue;
+  font-size: 20px;
+}
+
+div {
+  border: solid burlywood;
+}
+
+.background-bisque {
+  background-color: bisque;
+}
+
+.impact {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.left {
+  float: left;
+}

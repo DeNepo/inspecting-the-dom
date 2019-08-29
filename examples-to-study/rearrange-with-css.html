@@ -6,33 +6,6 @@
   <meta charset="utf-8">
 
   <title id="example-name">Rearrange With CSS</title>
-  <script>
-    const example = `
-<style>
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .at-the-top {
-    order: 1;
-  }
-
-  .at-the-bottom {
-    order: 2;
-  }
-</style>
-
-<div class="container">
-  <p id="p-1" class="at-the-bottom">
-    first p
-  </p>
-  <p id="p-2" class="at-the-top">
-    second p
-  </p>
-</div>
-`
-  </script>
 
 
   <link rel="stylesheet" type="text/css" href="../style.css" />
@@ -49,7 +22,31 @@
     <h2 id="headline"></h2>
   </header>
 
-  <section id="example-to-study" class="demo-box"></section>
+  <section id="example-to-study" class="demo-box">
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .at-the-top {
+        order: 1;
+      }
+
+      .at-the-bottom {
+        order: 2;
+      }
+    </style>
+
+    <div class="container">
+      <p id="p-1" class="at-the-bottom">
+        first p
+      </p>
+      <p id="p-2" class="at-the-top">
+        second p
+      </p>
+    </div>
+  </section>
 
   <section class="meta">
     <dl>
@@ -64,7 +61,7 @@
       </dd>
       <dd>
         <p>
-          see it all side-by-side: <button onclick="openInHixie(example)">source code -> DOM tree ->
+          see it all side-by-side: <button onclick="openInHixie('example-to-study')">source code -> DOM tree ->
             rendered</button>
         </p>
       </dd>
@@ -72,7 +69,8 @@
         <p>
           inspect the DOM with <a
             href="https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Open_the_Inspector"
-            target="_blank">your browser's <strong>Developer Tools</strong></a>
+            target="_blank">your browser's <strong>Developer Tools</strong></a> (docking them on the right side of the
+          screen is best)
         </p>
       </dd>
       <dd>
@@ -91,9 +89,6 @@
     const title = document.getElementById("example-name").innerHTML;
     const header = document.getElementById("headline");
     header.innerHTML = title;
-
-    const exampleToStudy = document.getElementById("example-to-study");
-    exampleToStudy.innerHTML = example;
 
     document.getElementById("hyf-footer").appendChild(renderFooter());
   </script>

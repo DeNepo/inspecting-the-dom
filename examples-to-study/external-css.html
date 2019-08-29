@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title id="example-name">Without CSS</title>
+  <title id="example-name">External CSS</title>
 
 
   <link rel="stylesheet" type="text/css" href="../style.css" />
@@ -23,20 +23,17 @@
   </header>
 
   <section id="example-to-study" class="demo-box">
-    <h1 class="heading">This is a Heading</h1>
-    <h1>This is another Heading</h1>
-    <p id="p-tag">
-      This is a p tag
-    </p>
-    <p>
-      This is another p tag
-    </p>
-    <div class="a-div">
-      And a div
+    <link rel="stylesheet" type="text/css" href="external-css.css">
+    <h1 class="background-bisque impact">first header</h1>
+    <div class="left">
+      <h1>second header</h1>
+      <p class="impact">first p</p>
     </div>
     <div>
-      And another div
+      <h1 class="impact">third header</h1>
+      <p>second p</p>
     </div>
+    <p class="background-bisque">third p</p>
   </section>
 
   <section class="meta">
