@@ -42,13 +42,14 @@ Here they are:
 1. [basic example with CSS](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/with-css.html)
 1. [rearrange with CSS](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/rearrange-with-css.html)
 1. [tables are not as they appear!](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/tables.html)
-1. [inline css](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/inline-css.html)
-1. [internal css](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/internal-css.html)
-1. [external css](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/external-css.html)
 1. HTMl bugs:
     * [no ```<tr>```](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/html-bugs-no-tr.html)
     * [unclosed tags](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/html-bugs-unclosed-tags.html)
     * [attributes vs. innerHTML](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/html-bugs-attributes-vs-innerHTML.html)
+1. Ways of including CSS:
+    * [inline css](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/inline-css.html)
+    * [internal css](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/internal-css.html)
+    * [external css](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/external-css.html)
 1. CSS bugs:
     * [exercise 1](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/css-bugs-1.html)
     * [exercise 2](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/css-bugs-2.html)
