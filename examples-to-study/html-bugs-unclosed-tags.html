@@ -5,8 +5,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title id="example-name">Internal CSS</title>
-
+  <title id="example-name">HTML bug: unclosed tags</title>
 
   <link rel="stylesheet" type="text/css" href="../style.css" />
 
@@ -23,41 +22,14 @@
   </header>
 
   <section id="example-to-study" class="demo-box">
-    <style>
-      /* see what happens when you use tags instead of classes?
-        there can be unintentional changes in your site that are hard to fix
-      */
-      p {
-        color: blue;
-        font-size: 20px;
-      }
-
-      div {
-        border: solid burlywood;
-      }
-
-      .background-bisque {
-        background-color: bisque;
-      }
-
-      .impact {
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-      }
-
-      .left {
-        float: left;
-      }
-    </style>
-    <h1 class="background-bisque impact">first header</h1>
-    <div class="left">
-      <h1>second header</h1>
-      <p class="impact">first p</p>
-    </div>
-    <div>
-      <h1 class="impact">third header</h1>
-      <p>second p</p>
-    </div>
-    <p class="background-bisque">third p</p>
+    <h1> Browsers are good at catching your mistakes (mostly) </h1>
+    </h1> but they don't know what you're thinking (the source makes this look like an h1!) </h1>
+    <p> (this "p" tag is not closed in the source, but is in the DOM)
+      <p> (neither is this one, what's happening!)
+        </h2> but they can't catch everything (the source looks like this should be a header!) <h2>
+          <p>(like this "p", the browser puts it in an "h2" in the DOM)
+            <!-- the <h2> is closed before the </section> closes -->
+            <!-- Why are these comments in the <p>? and why does the linter indent them? -->
   </section>
 
   <section class="about">

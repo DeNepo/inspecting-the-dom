@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title id="example-name">Internal CSS</title>
+  <title id="example-name">CSS Bugs 1</title>
 
 
   <link rel="stylesheet" type="text/css" href="../style.css" />
@@ -23,41 +23,22 @@
   </header>
 
   <section id="example-to-study" class="demo-box">
+    <!-- can you fix this using the inspector? -->
+    <!-- (your changes will go away when you refresh) -->
     <style>
-      /* see what happens when you use tags instead of classes?
-        there can be unintentional changes in your site that are hard to fix
-      */
-      p {
-        color: blue;
-        font-size: 20px;
+      .text {
+        color: blue,
+          font-size: 20px;
       }
 
-      div {
-        border: solid burlywood;
-      }
-
-      .background-bisque {
-        background-color: bisque;
-      }
-
-      .impact {
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-      }
-
-      .left {
-        float: left;
+      .container {
+        border;
+        solid burlywood;
       }
     </style>
-    <h1 class="background-bisque impact">first header</h1>
-    <div class="left">
-      <h1>second header</h1>
-      <p class="impact">first p</p>
+    <div class="container">
+      <p class="text">lorry insupum</p>
     </div>
-    <div>
-      <h1 class="impact">third header</h1>
-      <p>second p</p>
-    </div>
-    <p class="background-bisque">third p</p>
   </section>
 
   <section class="about">

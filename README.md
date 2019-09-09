@@ -6,10 +6,10 @@ This repository containes a collection of live web pages designed to help you un
 
 You'll know you have mastered this repo when you understand (and can explain to someone else!) the 3 stages in an HTML page's life-cycle using your DevTools and any simple website:
 1. __HTML Source Code__: This is the text that you write in a .html file and open with your browser.  HTML is a _mark up language_, meaning it describes to a computer how you want the content on your web page to be organized behind the scenes. You can't edit the source code from the browser, only from your text editor. Any changes you make in the browser will disappear when you refresh the page.
-2. __The DOM Tree__: When you open an HTML file in your browser, it _parses_ the code you wrote and builds the __DOM Tree__.  The DOM Tree is very similar to your HTML but will not be exactly the same, \<table> tags are helpful for understanding this. 
+2. __The DOM Tree__: When you open an HTML file in your browser, it _parses_ the code you wrote and builds the __DOM Tree__.  The DOM Tree is very similar to your HTML but will not be exactly the same, \<table> tags are helpful for understanding this.
 3. __Rendered Content__: The DOM is an _abstract representation_ of the content in your website, it is NOT exactly what you see on the screen. This is easiest to understand when you think of CSS: it is possible to write one div below anther in your .html file, have them in that order in the DOM (dev tools), then switch them on screen in the final rendering using CSS. (don't worry if that doesn't make sense yet, there is an exercise about this)
- 
-"Great!" you say  "This is a very well written explanation. But why does this matter, can't I just make pretty things?".  Yes, you could just hack together some HTML & CSS to make pretty pages, but without learning to use the Developer Tools and without understanding the HTML lifecycle (_HTML source code -> the DOM -> rendered content_), you'll never leave the minor leagues.   
+
+"Great!" you say  "This is a very well written explanation. But why does this matter, can't I just make pretty things?".  Yes, you could just hack together some HTML & CSS to make pretty pages, but without learning to use the Developer Tools and without understanding the HTML lifecycle (_HTML source code -> the DOM -> rendered content_), you'll never leave the minor leagues.
 
 Not only is it very difficult to catch your mistakes in HTML & CSS without mastering the DevTools, but mastering the DevTools _before_ moving on to JavaScript is one of the single most helpful things you can do to prepare.
 
@@ -35,7 +35,7 @@ Not only is it very difficult to catch your mistakes in HTML & CSS without maste
 
 ## The Exercises
 
-All exercises in this repository consist of an example meant to be studied as in a live web page, how else do expect to practice inspecting webistes! (ps. we recommend using FireFox)  
+All exercises in this repository consist of an example meant to be studied as in a live web page, how else do expect to practice inspecting webistes! (ps. we recommend using FireFox)
 
 Here they are:
 1. [basic example without CSS](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/without-css.html)
@@ -45,10 +45,16 @@ Here they are:
 1. [inline css](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/inline-css.html)
 1. [internal css](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/internal-css.html)
 1. [external css](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/external-css.html)
-1. [HTMl bugs 1]()
-1. [HTMl bugs 2]()
-1. [CSS bugs 1]()
-1. [CSS bugs 2]()
+1. HTMl bugs:
+    * [no ```<tr>```](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/html-bugs-no-tr.html)
+    * [unclosed tags](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/html-bugs-unclosed-tags.html)
+    * [attributes vs. innerHTML](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/html-bugs-attributes-vs-innerHTML.html)
+1. CSS bugs:
+    * [exercise 1](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/css-bugs-1.html)
+    * [exercise 2](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/css-bugs-2.html)
+    * [exercise 3](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/css-bugs-3.html)
+    * [exercise 4](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/css-bugs-4.html)
+
 
 [TOP](#inspecting-the-dom)
 
