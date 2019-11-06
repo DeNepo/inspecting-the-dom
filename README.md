@@ -35,7 +35,7 @@ Not only is it very difficult to catch your mistakes in HTML & CSS without maste
 
 ## The Exercises
 
-All exercises in this repository consist of an example meant to be studied as in a live web page, how else do expect to practice inspecting webistes! (ps. we recommend using FireFox)
+All exercises in this repository consist of an example meant to be studied as in a live web page, how else do expect to practice inspecting webistes!
 
 Here they are:
 1. [basic example without CSS](https://hackyourfuturebelgium.github.io/inspecting-the-dom/examples-to-study/without-css.html)
