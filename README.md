@@ -75,6 +75,10 @@ HTML -> DOM, CSS -> Rendering:
 * [stack overflow](https://stackoverflow.com/questions/4800538/client-side-html-dom-and-css)
 * [frontend babel](http://frontendbabel.info/articles/webpage-rendering-101/)
 
+Dev Tools:
+* FireFox: [what are the devtools?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools), [how to open them](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Open_the_Inspector), [editing live sites](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_and_edit_HTML)
+* Chrome, Chromium, Brave: [Getting Started Inspecting](https://developers.google.com/web/tools/chrome-devtools/dom/)
+
 HTML:
 * [30 good things to do](https://code.tutsplus.com/tutorials/30-html-best-practices-for-beginners--net-4957)
 * [10 bad things to avoid](https://www.tipsandtricks-hq.com/10-common-html-mistakes-to-avoid-1980)
@@ -83,11 +87,6 @@ CSS:
 * [3 ways of styling](https://www.w3schools.com/CSS/css_howto.asp)
 * [good and bad practices](https://speckyboy.com/good-bad-css-practices/)
 
-FireFox Dev Tools:
-* [what are the devtools?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools)
-* [how to open them](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Open_the_Inspector)
-* [editing live sites](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_and_edit_HTML)
-
 Looking for more like this?
 * [appspot: dom-tutorials](https://dom-tutorials.appspot.com/static/index.html)
 
@@ -95,4 +94,4 @@ Looking for more like this?
 
 ___
 ___
-### <a href="https://hackyourfuture.be" target="_blank"><img src="https://pbs.twimg.com/profile_images/984474625009741824/Bs_qKx6-_400x400.jpg" width="100" height="100" alt="Hack Your Future: Belgium"></img></a>
+### <a href="https://hackyourfuture.be" target="_blank"><img src="https://pbs.twimg.com/profile_images/984474625009741824/Bs_qKx6-_400x400.jpg" width="100" height="100" alt="Hack Your Future: Belgium" /></a>
