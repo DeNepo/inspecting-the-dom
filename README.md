@@ -1,6 +1,6 @@
 # Inspecting The DOM
 
-"_Inspecting the DOM with your browser's Developer Tools_" is a sentence quite a few new concepts.  But have no fear, this repo makes it clear!
+"_Inspecting the DOM with your browser's Developer Tools_" is a sentence with quite a few new words.  But have no fear, this repo makes it clear!
 
 This repository containes a collection of live web pages designed to help you understand the lifecycle of an HTML web page (__HTML+CSS source code -> the DOM -> rendered content__) and how you can use your browser's Developer Tools to inspect and modify __the DOM__.
 
@@ -12,8 +12,6 @@ You'll know you have mastered this repo when you understand (and can explain to 
 "Great!" you say  "This is a very well written explanation. But why does this matter, can't I just make pretty things?".  Yes, you could just hack together some HTML & CSS to make pretty pages, but without learning to use the Developer Tools and without understanding the HTML lifecycle (_HTML+CSS source code -> the DOM -> rendered content_), you'll never leave the minor leagues.
 
 Not only is it very difficult to catch your mistakes in HTML & CSS without mastering the DevTools, but mastering the DevTools _before_ moving on to JavaScript is one of the single most helpful things you can do to prepare.
-
-> We recommend you [download Firefox](https://www.mozilla.org/en-US/firefox/new/) if you don't have it already. These exercises will be much more helpful with a good developer-focused browser
 
 ### index
 * [learning objectives](#learning-objectives)
